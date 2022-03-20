@@ -1,0 +1,100 @@
+body {
+    background: #202020;
+
+    /* Margin and centering */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+    /* Text styling */
+    color: #e6e6e6;
+    font-family: Roboto, sans-serif;
+    font-feature-settings: "kern", "liga", "pnum";
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Centering sections */
+body > div {
+    max-width: 42rem;
+    margin: auto;
+}
+
+/* -------------- links --------------- */
+a {
+    color: #e6e6e6;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* --------------- TOP ---------------- */
+#top {
+    text-align: center;
+}
+
+#top img {
+    width: 16rem;
+    border-radius: 50%;
+    border: 2px solid #e6e6e6;
+
+    display: block;
+    margin: auto;
+}
+
+#top .links a {
+    font-size: 2rem;
+    margin: 0.3rem;
+}
+
+/* --------------- TOC ---------------- */
+#toc {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+#toc a {
+    margin: 0 1rem 0 1rem;
+    font-size: 1.4rem;
+}
+
+/* ------------- SECTIONS ------------- */
+.section h1 {
+    border-bottom: 2px dashed #e6e6e6;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section .subheader
+{
+    text-align: center;
+}
+
+.section .subheader a
+{
+    display: inline-block;
+}
+
+/* -------------- SLIDES --------------- */
+
+
+/* ----------- PUBLICATIONS ------------ */
+#publications td {
+    vertical-align: top;
+}
+
+#publications td .title {
+    font-weight: 600;
+    display: block;
+}
+
+/* -------------- FOOTER --------------- */
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
