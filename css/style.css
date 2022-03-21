@@ -33,20 +33,19 @@ a:hover {
     color: #ffffff;
 }
 
-.brand-logo {
+.brand-logo > img {
     /* These rules mirror those of font awesome */
     display: inline-block !important;
     width: 1.2em !important;
     height: 1.2em !important;
     border: none !important;
     border-radius: 0% !important;
-    fill: #e6e6e6;
     vertical-align: -.125em !important;
     overflow: visible;
 }
 
-.brand-logo:hover {
-    fill: #ffffff;
+.brand-logo:hover > img {
+    filter: brightness(150%);
 }
 
 /* --------------- TOP ---------------- */
